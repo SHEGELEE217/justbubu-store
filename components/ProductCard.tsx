@@ -36,8 +36,8 @@ export default function ProductCard({ product }: { product: any }) {
         
         <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
           <span className="text-xl font-bold text-justbubu-purple">
-            ₦{product.price.toLocaleString()}
-          </span>
+  ₦{Number(product.price).toLocaleString()}
+</span>
           
           {/* Update the button to trigger addToCart */}
           <button 

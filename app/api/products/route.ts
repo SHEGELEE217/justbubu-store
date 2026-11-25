@@ -1,4 +1,6 @@
 // app/api/products/route.ts
+// app/api/products/route.ts
+export const dynamic = 'force-dynamic'; // Add this line!
 import { NextResponse } from 'next/server';
 import { query } from '../../../utils/db';
 
